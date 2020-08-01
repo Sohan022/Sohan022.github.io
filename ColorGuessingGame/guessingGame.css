@@ -1,0 +1,82 @@
+h1{
+	background-color: steelblue;
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 10px 0;
+	letter-spacing: 2px;
+	font-size: 40px;
+	font-family:cursive;
+}
+
+#strip{
+	background-color: white;
+	text-align: center;
+	height: 30px;
+}
+
+body{
+	margin: 0;
+	background-color: #232323;
+}
+
+#result{
+	width: 42%;
+}
+
+#round{
+	margin-right: 12%;
+}
+
+#score{
+	margin-left: 12%;
+}
+
+#result,#round,#score{
+	display: inline-block;
+	letter-spacing: 1.6px;
+	font-weight: 900;
+	color: rgb(6, 21, 34);
+	font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+	background-color: white;
+	border: none;
+	height: 100%;
+	letter-spacing: 1px;
+	font-weight: 700;
+	color: steelblue;
+	transition: all 0.5s;
+	font-size: inherit;
+}
+
+#randomColor{
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.square{
+	width: 21.5%;
+	background-color:#232323;
+	float:left;
+	margin: 1.66%;
+	border-radius: 20%;
+	padding-bottom: 21.5%;
+	transition :background-color 1.0s;
+}
+
+#container{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+button:hover{
+	background-color: steelblue;
+	color: white;
+}
+
+.selects{
+	background-color: steelblue;
+	color: white;
+}
