@@ -7,17 +7,17 @@ $(function(){
   ) {
     isMobile = true;
 
-    // // Mobile height fix
-    // $('.height-fix').each(function() {
-    //   var h = $(this).height();
-    //   $(this).height(h);
-    // });
+    // Mobile height fix
+    $('.height-fix').each(function() {
+      var h = $(this).height();
+      $(this).height(h);
+    });
   }
 
   // RESIZE RESETS
-  // $(window).resize(function() {
-  //   posFilterBar($('.filter').first());
-  // });
+  $(window).resize(function() {
+    posFilterBar($('.filter').first());
+  });
 
   // NAV POSITION
   var navPos = $('nav').position().top;
