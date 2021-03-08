@@ -43,6 +43,9 @@ $(function(){
         if (pos2 > $('#projects').offset().top) {
           highlightLink('projects-nav');
         }
+        if (pos2 > $('#blogs').offset().top) {
+          highlightLink('blogs-nav');
+        }
         if (pos2 > $('#skills').offset().top) {
           highlightLink('skills-nav');
         }

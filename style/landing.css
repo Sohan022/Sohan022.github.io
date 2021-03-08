@@ -211,7 +211,7 @@ h1{
   font-family: 'Roboto',sans-serif;
 }
 
-#skills h1, #projects h1, #about h1, #contact h1{
+#skills h1, #projects h1, #about h1, #contact h1, #blogs h1{
   margin-bottom: 50px;
   text-align: center;
   font-size: 50px;
@@ -234,7 +234,7 @@ h1{
   text-align: center;
 }
 
-#projects, #contact{
+#projects, #skills{
   background-color: #020f23;
 }
 
